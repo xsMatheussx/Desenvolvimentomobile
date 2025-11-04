@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "QuickActionsApp",
+    "slug": "quick-actions",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.seunome.quickactions",
+      "infoPlist": {
+        "UIApplicationShortcutItems": [
+          {
+            "UIApplicationShortcutItemTitle": "Tela 1",
+            "UIApplicationShortcutItemType": "open1",
+            "UIApplicationShortcutItemIconType": "Home"
+          },
+          {
+            "UIApplicationShortcutItemTitle": "Tela 2",
+            "UIApplicationShortcutItemType": "open2",
+            "UIApplicationShortcutItemIconType": "Compose"
+          },
+          {
+            "UIApplicationShortcutItemTitle": "Tela 3",
+            "UIApplicationShortcutItemType": "open3",
+            "UIApplicationShortcutItemIconType": "Search"
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.seunome.quickactions"
+    },
+    "scheme": "quickactions"
+  }
+}
